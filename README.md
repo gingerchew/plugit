@@ -58,7 +58,7 @@ function Move() {
             this.slideWidth = slide.clientWidth;
         },
         move(dir) {
-            track.style.transform = `translate3d(0, ${this.slideWidth * gs.activeIndex}px, 0)`;
+            track.style.transform = `translate3d(0, -${this.slideWidth * gs.activeIndex}px, 0)`;
         }
     }
 
